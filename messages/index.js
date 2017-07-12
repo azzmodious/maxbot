@@ -49,7 +49,7 @@ var intents = new builder.IntentDialog({ recognizers: [recognizer] })
 .matches('<yourIntent>')... See details at http://docs.botframework.com/builder/node/guides/understanding-natural-language/
 */
 .matches('greeting', (session, arg) =>{
-    session.send('Whats up buddy :)');
+    session.send('Whats up bro slice:) ');
     
 })
 .matches('submit ticket', (session, arg) =>{
